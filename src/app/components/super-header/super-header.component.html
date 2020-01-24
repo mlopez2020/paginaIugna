@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+ </head>
+ <body>     
+     <div class="header-botones header-fondo-transparente" [style.background-color] = "isSolido ? '#117f76' : 'rgba(17,127,118, 0.3)' " id='nav'>
+         <div class="header-img">
+             <figure>
+                <a class= "c-preview1"routerLink="/">
+                    <img class="c-preview__img1" src="./assets/img/banner.png" alt="">
+                </a>
+             </figure>
+         </div>
+         <ul>
+             <li class="botones"><a class="enlaces" class="enlaces" routerLink="/">INICIO</a></li>
+             <li class="botones"><a class="enlaces" routerLink="/institucional">INSTITUCIONAL</a></li>
+             <li class="botones"><a class="enlaces" routerLink="/investigación">INVESTIGACION</a></li>
+             <li class="botones"><a class="enlaces" routerLink="/extensión">EXTENSIÓN</a></li>
+             <li class="botones"><a class="enlaces" href="http://abcdonline.com.ar/bgn/">BIBLIOTECA</a></li>          
+         </ul>
+     </div>   
+ </body>
+ </html>

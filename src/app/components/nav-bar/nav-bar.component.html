@@ -1,0 +1,108 @@
+<div class="wrap">
+    <ul class="tabs row">
+        
+            <li class="tecnicaturas col-lg"><a><i (click)="ejecutarTab(1)"><span class="fa fa-home"></span><span
+                        class="tab-text">TECNICATURAS</span></i></a></li>
+            <li class="licenciaturas col-lg"><a><i  (click)="ejecutarTab(2)"><span class="fa fa-group"></span><span
+                        class="tab-text">LICENCIATURAS</span></i></a></li>
+            <li class="cursosPosgrado col-lg"><a><i (click)="ejecutarTab(3)"><span class="fa fa-briefcase"></span><span class="tab-text">CICLOS DE
+                LICENCIATURA</span></i></a></li>
+        
+        
+            <li class="cursosExtension col-lg"><a><i (click)="ejecutarTab(4)"><span class="fa fa-bookmark"></span><span class="tab-text">CURSOS DE
+                        EXTENSIÓN</span></i></a></li>
+            <li class="ciclos col-lg"><a><i  (click)="ejecutarTab(5)"><span class="fa fa-bookmark">CURSOS DE POSGRADO</span><span class="tab-text"></span></i></a></li>
+        
+    </ul>
+
+    <div class="secciones">
+        <div *ngIf="isTab1Active">
+            <article id="tab1">
+                <div class="cursos col-lg" id="cursos">
+                    <a href="./assets/pdf/escusub/TECNICATURAS_escusub_SEG_PUB_Y_CIU.pdf">Seguridad Pública y Ciudadana</a>
+                    <hr>
+                    <a class="subDerivacion" href="#">Seguridad Pública y Ciudadana con orientación en:</a>
+                    <hr>
+                    <a href="./assets/pdf/escusub/TECNICATURAS_escusub_ADM_PUB.pdf">Administración Pública</a>
+                    <hr>
+                    <a href="./assets/pdf/escusub/TECNICATURAS_escusub_CRIMINALISTICA.pdf">Criminalistica</a>
+                    <hr>
+                    <a href="./assets/pdf/escusub/TECNICATURAS_escusub_GESTION_COM.pdf">Gestión de las Comunicaciones</a>
+                    <hr>
+                    <a href="./assets/pdf/escusub/TECNICATURAS_escusub_INVESTIG_CRIM.pdf">Investigación Criminal</a>
+                    <hr>
+                    <a href="./assets/pdf/escusub/TECNICATURAS_escusub_SEG_VIAL.pdf">Seguridad Vial</a>
+                    <hr>
+                </div>
+            </article>
+        </div>
+        <div *ngIf="isTab2Active">
+            <article id="tab2">
+                <div class="cursos col-lg" id="cursos">
+                    <a href="./assets/pdf/escugen/ESCUGEN_administracion_publica_2018.pdf">Administración Pública</a>
+                    <hr>
+                    <a href="./assets/pdf/escugen/ESCUGEN_seguridad_publica_2018.pdf">Seguridad Pública</a>
+                    <hr>
+                    <a href="./assets/pdf/escugen/ESCUGEN_criminalistica_2018.pdf">Criminalistica</a>
+                    <hr>
+                    <a href="./assets/pdf/escugen/ESCUGEN_gestion_y_seguridad 2013.pdf">Gestión y Seguridad de las Tecnologías de la Información</a>
+
+                </div>
+            </article>
+        </div>
+        <div *ngIf="isTab3Active">
+            <article id="tab3">
+                <div class="cursos col-lg" id="cursos">
+                    <a href="./assets/pdf/escusuper/CICLO_Lic_administración_publica.pdf">Administración Pública</a>
+                    <hr>
+                    <a href="./assets/pdf/escusuper/CICLO_Lic_seguridad_publica.pdf">Seguridad Pública</a>
+                    <hr>
+                    <a href="./assets/pdf/escusuper/CICLO_Lic_criminalistica.pdf">Criminalistica</a>
+                    <hr>
+                    <a href="./assets/pdf/escusuper/CICLO_Profesorado.pdf">Profesorado Universitario</a>
+                    <hr>
+
+                </div>
+            </article>
+        </div>
+        <div *ngIf="isTab4Active">
+            <article id="tab4">
+                <div class="cursos col-lg" id="cursos">
+                    <a href="./assets/pdf/extension/AnlisisDelDelito.pdf">Análisis del delito</a>
+                    <hr>
+                    <a href="./assets/pdf/extension/InvestigacionDeAccidentesDeTransito.pdf">Investigación de accidentes de tránsito</a>
+                    <hr>
+                    <a href="./assets/pdf/extension/IdiomaFrancesI.pdf">Francés I</a>
+                    <hr>
+                    <a href="./assets/pdf/extension/IdiomaInglesI.pdf">Inglés I</a>
+                    <hr>
+                    <a href="./assets/pdf/extension/HerramientasDeInformatica.pdf">Herramientas básicas de informática</a>
+                    <hr>
+                    <a href="./assets/pdf/extension/PrevencionDelDelito.pdf">Prevención del delito</a>
+                    <hr>
+                    <a href="./assets/pdf/extension/IdiomaFrancesII.pdf">Francés II</a>
+                    <hr>
+                    <a href="./assets/pdf/extension/IdiomaInglesII.pdf">Inglés II</a>
+                    <hr>
+                    <a href="./assets/pdf/extension/LiderarParaElCambio.pdf">Liderar para el cambio</a>
+                    <hr>
+                    <a href="./assets/pdf/extension/IdiomaInglesIII.pdf">Inglés III</a>
+                    <hr>
+                </div>
+            </article>
+        </div>
+        <div *ngIf="isTab5Active">
+            <article id="tab5">
+                <div class="cursos col-lg" id="cursos">
+                   
+                    <a href="./assets/pdf/diplomaturas2020.pdf">Diplomatura en Fronteras</a>
+                    <hr>
+                    <a href="./assets/pdf/diplomaturas2020.pdf">Diplomatura en Gestión Integral de Riesgo de Desastre</a>
+                    <hr>
+                    <a href="./assets/pdf/diplomaturas2020.pdf">Diplomatura en Inteligencia Criminal y Crimen Organizado</a>
+                    <hr>
+
+                </div>
+            </article>
+        </div>
+    </div>

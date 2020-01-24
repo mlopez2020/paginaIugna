@@ -1,0 +1,32 @@
+<div class="" [style.background-color] = "isSolido ? '#117f76' : 'rgba(17,127,118, 0.3)' " id='nav'>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" [style.background-color] = "isSolido ? '#117f76' : 'rgba(17,127,118, 0.3)' ">
+        <figure>
+                <a class= "c-preview1"routerLink="/">
+                    <img class="c-preview__img1" src="./assets/img/banner.png" alt="">
+                </a>
+        </figure>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse"  id="navbarTogglerDemo02">
+            <ul class="navbar-nav d-flex justify-content-end w-100">
+                <li class="nav-item"><a class="nav-link text-white" routerLink="/">INICIO</a></li>
+                <li class="nav-item"><a class="nav-link text-white" routerLink="/institucional">INSTITUCIONAL</a></li>
+                <li class="nav-item"><a class="nav-link text-white" routerLink="/investigación">INVESTIGACION</a></li>
+                <li class="nav-item"><a class="nav-link text-white" routerLink="/extensión">EXTENSIÓN</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="http://abcdonline.com.ar/bgn/">BIBLIOTECA</a></li> 
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+            </ul>          
+        </div>
+    </nav>
+</div>

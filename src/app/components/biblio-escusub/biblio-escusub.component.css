@@ -1,0 +1,18 @@
+@import "C:\Users\mlopez\Desktop\nuevaPaginaIugna\nuevaPaginaIugna\src\app\components\institucional\institucional.component.css";
+
+.container-autoridades {
+    display: flex;
+    padding: 50px 70px;
+
+}
+
+.autoridades {
+    font-weight: 500;
+    width: 100%;
+    margin: 20px 50px;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 30px;
+}

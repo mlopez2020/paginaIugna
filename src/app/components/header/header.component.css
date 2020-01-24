@@ -1,0 +1,10 @@
+ ::ng-deep .navbar {    
+    /* background:   #117572 !important;   
+    position: fixed !important; */
+    transition: .8s !important;
+    z-index: 16 !important;
+}
+
+
+
+

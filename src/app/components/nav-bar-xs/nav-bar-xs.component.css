@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.wrap{
+	width: 100%px;
+	max-width: 100%;
+	margin: 0;
+}
+.wrap:hover {
+    cursor: pointer;
+}
+
+ul.tabs{
+	width: 100%;
+	background: #363636;
+	list-style: none;
+	display: flex;
+}
+
+ul.tabs li{
+	width: 100%;
+}
+
+ul.tabs li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	padding: 20px 0px;
+}
+
+/* .active{
+	background: rgba(0, 0, 0, 0.6);
+} */
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+
+.secciones{
+	width: 100%;
+	background: #fff;
+}
+
+.secciones article{
+	padding: 30px;
+}
+
+.secciones article p{
+	text-align: justify;
+}
+
+
+@media screen and (max-width: 100%){
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 100%){
+	ul.tabs li a{
+		padding: 15px 0px;
+	}
+
+	ul.tabs li a .tab-text{
+		display: none;
+	}
+
+	.secciones article{
+		padding: 20px;
+	}
+}
+
+/* .cursos, article {
+    display: none !important;
+} */
+
+#tab1 {
+    background-color: #0e3d35;
+    color: white;
+}
+
+.tecnicaturas {
+    background-color: #0e3d35;
+}
+
+.licenciaturas {
+    background-color: #255051;
+}
+#tab2 {
+    background-color: #255051;
+    color: white;
+}
+
+.cursosPosgrado {
+    background-color: #117572;
+}
+#tab3 {
+    background-color: #117572;
+    color: white;
+}
+
+.cursosExtension {
+    background-color: #3abf88;
+}
+
+#tab4 {
+    background-color: #3abf88;
+    color: white;
+}
+
+.ciclos {
+    background-color: #8ac979;
+}
+
+#tab5 {
+    background-color: #8ac979;
+    color: white;
+}
+a {	
+    text-decoration: none;
+	color: white;
+	width: 100%;
+	height: 100%;	
+}
+a:hover {
+    font-size: 21px
+    
+}
+hr {
+    color: transparent;
+    border: none;
+}
+
+i {
+	width: 100%;
+	height: 100%;
+}
+
+span {
+	font-size: 22px;
+	font-weight: 600;
+	width: 100%;
+	height: 100%;
+}
+
+.cursos {
+    width: 100%;
+}
+
+a{
+    width: 100%;
+}
+
+@media (min-width: 993px) {
+    li {
+        display: block;
+    }
+}

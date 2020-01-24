@@ -1,0 +1,60 @@
+@import "C:\Users\mlopez\Desktop\nuevaPaginaIugna\nuevaPaginaIugna\src\app\components\institucional\institucional.component.css";
+
+.container-autoridades {
+    display: flex;
+    padding: 20px 100px;
+
+}
+
+.autoridades {
+    font-weight: 500;
+    width: 50%;
+}
+
+.subtitle {
+    font-weight: 600;
+}
+
+p {
+    text-align: justify;
+}
+
+.botones{
+    display: grid;
+    margin-top: 75px;
+    justify-content: center;
+    align-content: flex-start;
+}
+a {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    width: 400px;
+    color: white;
+    background-color: #3abf88;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    font-size: 20px;    
+}
+a:hover {
+    background: rgb(11, 112, 87);
+    font-size: 21px;
+}
+button {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    width: 400px;
+}
+
+button:hover {
+    background: rgb(11, 112, 87);
+    font-size: 21px;
+    
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}

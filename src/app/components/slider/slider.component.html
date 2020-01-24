@@ -1,0 +1,62 @@
+<div class="container-fluid">
+    <div class="slider">      
+      <figure>
+        <img src="./assets/img/novedades.png" alt="">
+      </figure>
+      <hr>
+        <ngb-carousel *ngIf="images">    
+                  
+              <div class="news-container">              
+                <ng-template ngbSlide>
+                  <div class="prueba1">
+                      <div class="picsum-img-wrapper">
+                        <h3>INTITUTOS</h3>
+                        <P>Toda la oferta académica de los institutos de formación "Escuel de Oficiales de Gnedarmería Nacional" y "Escuela Superior de Gendarmería Nacional" se han actualizado con los contenidos y horarios más recientes.</P><hr>
+                        <a href="#">Más info >></a>
+                      </div>
+                      <div class="picsum-img-wrapper">
+                        <h3>INSCRIPCIÓN A LAS DIPLOMATURAS</h3>
+                        <p>Desde el mes de Octubre se encuentra abierta la incripción a las distintas Diplomaturas de la Escuela Superiror.</p><hr>
+                        <a href="#">Más info >></a>
+                      </div>
+                      <div class="carousel-caption">                    
+                      </div>
+                    </div>
+                  <div class="carousel-caption">
+                    
+                  </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                  <div class="prueba1">
+                      <div class="picsum-img-wrapper">
+                        <h3>REDISEÑO DE LA PÁGINA WEB</h3>
+                      <!-- <h4>DE LAS FUERZAS ARMADAS</h4> -->
+                      <!-- <h5>REBIFA</h5> -->
+                      <p>En conjunto con el Centro de Educación a Distancia (CENEDIS), la división de las tic's ha rediseñado por completo el sitio web del Instituto Universitario de Gendarmería Nacional utilizando nuevas tecnologías que mejoran el rendimiento y la experiencia de sus usuarios.</p><hr>
+                      <!-- <a href="#">Más info >></a> -->
+                      </div>
+                      <div class="picsum-img-wrapper">
+                        <h3>INSCRIPCIÓN 2020</h3>
+                        <h5>CICLOS DE LICENCIATURAS DICIEMBRE / FEBRERO</h5>
+                        <p>Se encuentra abierta la incripción a las carreras de Ciclos de Licenciatura de la Escuela Superior hasta el 27 de Diciembre, reanudandose en el mes de Febrero del año 2020.</p>
+                        <p>Podrà solicitar informaciòn en el siguiente correo ciclos.calderon@iugna.edu.ar o comunicarse al 011-51693321.</p><hr>
+                        <a routerLink="/cicloIns">Más info >></a>
+                      </div>
+                      <div class="carousel-caption">                    
+                      </div>
+                    </div>
+                  <div class="carousel-caption">
+                    
+                  </div>
+                </ng-template>
+              </div>
+            <!-- <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img src="./assets/img/m3.png" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">                
+              </div>
+            </ng-template> -->
+          </ngb-carousel>
+    </div>
+</div>
